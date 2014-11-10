@@ -2,7 +2,7 @@ package kata4;
 
 public class HistogramBuilder<E> {
     
-    private E[] items;
+    private final E[] items;
 
     public HistogramBuilder(E[] items) {
         this.items = items;
